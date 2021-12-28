@@ -1,0 +1,102 @@
+.btn {
+  display: inline-block;
+  font-family: var(--Gilroy);
+  font-style: normal;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  &--submit {
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-xxlg);
+    line-height: 22px;
+    letter-spacing: 0.12em;
+    color: var(--white);
+    padding: var(--span-s) var(--span-2xl);
+    background: var(--blue);
+    border-radius: 10px;
+  }
+
+  &--search {
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: var(--white);
+    padding: var(--span-xs) var(--span-m);
+    border-radius: 10px;
+    background: var(--btn-red);
+    margin-left: auto;
+  }
+
+  &--add {
+    background: var(--btn-red);
+    box-shadow: 0px 4px 17px rgba(194, 32, 51, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: var(--span-s) var(--span-m);
+    color: var(--white);
+
+    .add-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 6px;
+    }
+  }
+
+  &--filter {
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: var(--white);
+    margin-left: auto;
+
+    .filter-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &--edit {
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-gray);
+    padding: var(--span-xs) var(--span-xl);
+    border-radius: 4px;
+    transition: all 0.3s;
+    background: transparent;
+  }
+
+  &--delete {
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white);
+    padding: var(--span-xs) var(--span-xl);
+    border-radius: 4px;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    color: var(--text-gray);
+    background: transparent;
+  }
+}

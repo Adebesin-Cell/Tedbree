@@ -1,0 +1,125 @@
+.section-jobs {
+  padding-top: calc(2 * var(--span-xl));
+}
+
+.jobs {
+  &__search {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__form {
+    width: 500px;
+    &-group {
+      display: flex;
+      background: #ffffff;
+      box-shadow: 0px 4px 17px rgba(15, 74, 123, 0.15);
+      border-radius: 10px;
+      padding: var(--span-s) var(--span-m);
+      align-items: center;
+    }
+  }
+
+  &__input {
+    margin-left: var(--span-s);
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Gilroy-Regular;
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: var(--gray);
+    width: calc(100% - 24px);
+
+    &::-webkit-input-placeholder {
+      font-family: Gilroy-Regular ☞, sans-serif;
+      font-size: calc(var(--size-m) + 2px);
+      line-height: 21px;
+      letter-spacing: 0.08em;
+      text-align: left;
+      color: var(--gray);
+    }
+  }
+
+  &__board {
+    margin-top: var(--span-l);
+  }
+
+  &__header {
+    padding: var(--span-s) calc(var(--span-2xl) + var(--span-s));
+    border-radius: 10px;
+    background: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  &__paragraph {
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--white);
+
+    &:not(:last-child) {
+      margin-right: 150px;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    display: grid;
+    gap: 8px;
+  }
+
+  &__item {
+    display: flex;
+    padding: var(--span-s) var(--span-l);
+    background: var(--white);
+    box-shadow: 0px 4px 10px rgba(62, 62, 64, 0.1);
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  &__item:hover .btn--edit {
+    color: var(--white);
+    background: var(--btn-red);
+  }
+
+  &__item:hover *.jobs__text {
+    color: var(--dary-gray);
+  }
+
+  &__item:hover .btn--delete {
+    color: var(--light-blue);
+    border: 1px solid var(--light-blue);
+  }
+
+  &__bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--btn-red);
+    margin-right: var(--span-m);
+  }
+
+  &__details {
+    flex: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    color: var(--text-gray);
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: all 0.3s;
+  }
+}

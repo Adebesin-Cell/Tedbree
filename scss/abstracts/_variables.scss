@@ -1,0 +1,45 @@
+:root {
+  --Gilroy: "Gilroy", sans-serif;
+  --Montserrat: "Montserrat", sans-serif;
+  --unit: 10px;
+
+  //sizes
+  --size-xs: 12px;
+  --size-s: 14px;
+  --size-m: 16px;
+  --size-l: 24px;
+  --size-xl: 32px;
+  --size-2xl: 48px;
+
+  //spaces
+  --span-xs: var(--unit);
+  --span-s: calc(var(--unit) * 2);
+  --span-m: calc(var(--unit) * 3);
+  --span-l: calc(var(--unit) * 4);
+  --span-xl: calc(var(--unit) * 5);
+  --span-2xl: calc(var(--unit) * 6);
+
+  //weights
+  --weight-xsm: 300;
+  --weight-sm: 400;
+  --weight-md: 500;
+  --weight-lg: 600;
+  --weight-xlg: 700;
+  --weight-xxlg: 800;
+  --weight-2xxlg: 900;
+
+  //colors
+
+  --body-bg: #f9fbfd;
+  --red: #f57d7d;
+  --blue: #0f4a7b;
+  --white: #ffffff;
+  --circle-1: #62becb;
+  --circle-2: #dd4033;
+  --circle-3: #62becb;
+  --gray: #3e3e40;
+  --btn-red: #ea5566;
+  --text-gray: #3e3e40b3;
+  --light-blue: #62becb;
+  --dark-gray: #0e0e10;
+}

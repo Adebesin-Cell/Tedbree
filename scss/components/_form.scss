@@ -1,0 +1,54 @@
+.form {
+  max-width: 100%;
+  flex: 0 0 100%;
+  position: relative;
+  z-index: 2;
+  &__header {
+    font-family: var(--Gilroy);
+    font-size: var(--size-xl);
+    font-style: normal;
+    font-weight: var(--weight-xxlg);
+    line-height: 39px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: var(--blue);
+    margin-bottom: var(--span-l);
+  }
+
+  &__group {
+    &:not(:last-child) {
+      margin-bottom: var(--span-l);
+    }
+  }
+
+  &__label {
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    font-style: normal;
+    font-weight: var(--weight-sm);
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: var(--blue);
+    margin-bottom: var(--span-xs);
+    display: block;
+  }
+
+  &__input {
+    display: block;
+    border: 0.5px solid var(--blue);
+    border-radius: 10px;
+    background: var(--white);
+    outline: none;
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-sm);
+    line-height: 21px;
+    padding: var(--span-s) calc(var(--span-s) + 5px);
+    height: 70px;
+    width: 100%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+}

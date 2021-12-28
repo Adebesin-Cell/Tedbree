@@ -1,0 +1,36 @@
+.header {
+  padding-block-start: var(--span-m);
+  background: var(--blue);
+  position: relative;
+  padding-block-end: calc(var(--span-l));
+
+  &__wrapper {
+    padding-bottom: calc(var(--span-2xl) + var(--span-m));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: block;
+    &-link {
+      display: inline-block;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__avatar {
+    display: block;
+    &-box {
+      margin-left: var(--span-s);
+    }
+  }
+}

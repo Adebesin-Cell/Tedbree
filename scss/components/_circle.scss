@@ -1,0 +1,31 @@
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+
+  &--1 {
+    width: 100px;
+    height: 100px;
+    right: -10px;
+    top: 91px;
+    border: 3px solid var(--circle-1);
+  }
+
+  &--2,
+  &--3 {
+    width: 48px;
+    height: 48px;
+  }
+
+  &--2 {
+    top: 183px;
+    right: 70px;
+    border: 2px solid var(--circle-2);
+  }
+
+  &--3 {
+    top: 240px;
+    right: 120px;
+    border: 2px solid var(--circle-3);
+  }
+}

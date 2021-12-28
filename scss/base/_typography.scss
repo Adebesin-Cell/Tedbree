@@ -1,0 +1,33 @@
+body {
+  font-family: var(--Gilroy);
+}
+
+.login {
+  &__heading {
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-2xl) + 2px);
+    font-style: normal;
+    font-weight: var(--weight-xxlg);
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white);
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.heading {
+  &--primary {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-2xl) - 6px);
+    font-style: italic;
+    font-weight: var(--weight-lg);
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white);
+  }
+}
