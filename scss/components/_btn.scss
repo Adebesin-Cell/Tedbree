@@ -99,4 +99,19 @@
     color: var(--text-gray);
     background: transparent;
   }
+
+  &--post-job {
+    font-family: var(--Gilroy);
+    font-size: var(--size-m);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blue);
+    background: var(--light-red);
+    border-radius: 6px;
+    padding: var(--span-xs);
+    text-decoration: none;
+  }
 }

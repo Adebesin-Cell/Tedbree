@@ -30,4 +30,16 @@ body {
     text-align: left;
     color: var(--white);
   }
+
+  &--normal {
+    font-size: calc(var(--size-2xl) - 8px);
+    font-style: normal;
+    font-family: var(--Gilroy);
+    line-height: 47px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: var(--white);
+    font-weight: var(--weight-md);
+    margin-bottom: var(--span-2xl);
+  }
 }

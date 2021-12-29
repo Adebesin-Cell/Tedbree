@@ -1,0 +1,33 @@
+.navigation {
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  &__item {
+    padding: 0 calc(var(--span-xs) + 5px);
+
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: var(--Gilroy);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-sm);
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+}
