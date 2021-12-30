@@ -114,4 +114,16 @@
     padding: var(--span-xs);
     text-decoration: none;
   }
+
+  &--more {
+    font-family: var(--Gilroy);
+    font-size: var(--size-s);
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    border-radius: 10px;
+    color: var(--white);
+    background: var(--btn-red);
+    padding: var(--span-xs);
+  }
 }

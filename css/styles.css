@@ -217,6 +217,18 @@ body {
   text-decoration: none;
 }
 
+.btn--more {
+  font-family: var(--Gilroy);
+  font-size: var(--size-s);
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  border-radius: 10px;
+  color: var(--white);
+  background: var(--btn-red);
+  padding: var(--span-xs);
+}
+
 .circle {
   border-radius: 50%;
   position: absolute;
@@ -659,6 +671,116 @@ body {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+
+.section-job-listing {
+  margin-top: calc(var(--span-2xl) + var(--span-s));
+}
+
+.listing__details {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listing__group {
+  display: flex;
+  align-items: center;
+}
+
+.listing__filters {
+  position: relative;
+}
+
+.listing__options {
+  list-style-type: none;
+  position: absolute;
+}
+
+.listing__options--hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0px);
+}
+
+.listing__wrapper {
+  margin-top: var(--span-l);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+}
+
+.listing__list {
+  display: grid;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.listing__item {
+  padding: var(--span-m);
+  box-shadow: 0px 4px 17px rgba(98, 190, 203, 0.15);
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.listing__item:hover {
+  background: var(--blue);
+}
+
+.listing__item:hover .listing__header {
+  color: var(--white);
+}
+
+.listing__header {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--Gilroy);
+  font-size: var(--size-l);
+  font-weight: var(--weight-lg);
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: var(--blue);
+}
+
+.listing__location {
+  display: flex;
+  margin-top: var(--span-xs);
+}
+
+.listing__location .location-icon {
+  margin-right: 5px;
+}
+
+.listing__location .location-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.listing__location span {
+  font-family: Gilroy-Regular, sans-serif;
+  font-size: calc(var(--size-m) + 2px);
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: var(--gray);
+  font-weight: var(--weight-xsm);
+}
+
+.listing__description {
+  margin-top: var(--span-s);
+  font-family: Gilroy-Regular, sans-serif;
+  font-size: var(--size-s);
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  font-weight: var(--weight-xsm);
+}
+
+.listing__action {
+  margin-top: var(--span-s);
+  display: flex;
+  justify-content: flex-end;
 }
 
 .login__wrapper {
