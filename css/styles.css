@@ -591,7 +591,7 @@ body {
 }
 
 .jobs__item:hover *.jobs__text {
-  color: var(--dary-gray);
+  color: var(--dark-gray);
 }
 
 .jobs__item:hover .btn--delete {
@@ -677,6 +677,10 @@ body {
   margin-top: calc(var(--span-2xl) + var(--span-s));
 }
 
+.listing {
+  margin-bottom: var(--span-l);
+}
+
 .listing__details {
   max-width: 600px;
   display: flex;
@@ -721,10 +725,19 @@ body {
   box-shadow: 0px 4px 17px rgba(98, 190, 203, 0.15);
   border-radius: 10px;
   background: var(--white);
+  transition: all 0.3s;
 }
 
 .listing__item:hover {
   background: var(--blue);
+}
+
+.listing__item:hover .listing__description {
+  color: var(--white);
+}
+
+.listing__item:hover .listing__location span {
+  color: var(--white);
 }
 
 .listing__item:hover .listing__header {
@@ -741,6 +754,7 @@ body {
   letter-spacing: 0.08em;
   text-align: left;
   color: var(--blue);
+  transition: all 0.3s;
 }
 
 .listing__location {
@@ -765,16 +779,19 @@ body {
   text-align: left;
   color: var(--gray);
   font-weight: var(--weight-xsm);
+  transition: all 0.3s;
 }
 
 .listing__description {
   margin-top: var(--span-s);
   font-family: Gilroy-Regular, sans-serif;
   font-size: var(--size-s);
-  line-height: 16px;
+  line-height: 23px;
   letter-spacing: 0.08em;
   text-align: left;
   font-weight: var(--weight-xsm);
+  color: var(---gray);
+  transition: all 0.3s;
 }
 
 .listing__action {
