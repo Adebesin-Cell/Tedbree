@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  overflow-x: auto;
+  width: 360px;
+  &__btn {
+    cursor: pointer;
+    outline: none;
+    background: var(--white);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffffb3;
+    border: 0.2px solid #0f4a7b;
+    border-radius: 4px;
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: var(--size-s);
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    padding: var(--span-s);
+    &:not(:last-child) {
+      margin-right: var(--span-s);
+    }
+  }
+}

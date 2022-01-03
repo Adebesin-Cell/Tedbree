@@ -125,5 +125,20 @@
     color: var(--white);
     background: var(--btn-red);
     padding: var(--span-xs);
+    transition: all 0.3s;
+  }
+
+  &--apply {
+    margin-top: var(--span-m);
+    padding: var(--span-xs) var(--span-l);
+    border-radius: 10px;
+    background: var(--blue);
+    font-family: Gilroy-Regular, sans-serif;
+    font-size: calc(var(--size-m));
+    line-height: 21px;
+    font-weight: var(--weight-sm);
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: var(--white);
   }
 }

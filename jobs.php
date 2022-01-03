@@ -178,11 +178,133 @@
                                 </button>
                             </div>
                         </li>
+                        <li class="listing__item">
+                            <h1 class="listing__header">
+                                <span>
+                                    Front end developer
+                                </span>
+                                <span>
+                                    $2k-$5k
+                                </span>
+                            </h1>
+                            <p class="listing__location">
+                                <span class="location-icon">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.29184 5.87744C8.61552 5.87744 7.95439 6.07799 7.39206 6.45374C6.82972 6.82948 6.39143 7.36354 6.13261 7.98837C5.8738 8.61321 5.80608 9.30076 5.93802 9.96408C6.06996 10.6274 6.39564 11.2367 6.87387 11.7149C7.3521 12.1932 7.9614 12.5188 8.62473 12.6508C9.28805 12.7827 9.9756 12.715 10.6004 12.4562C11.2253 12.1974 11.7593 11.7591 12.1351 11.1968C12.5108 10.6344 12.7114 9.97329 12.7114 9.29697C12.7103 8.39037 12.3497 7.5212 11.7087 6.88014C11.0676 6.23908 10.1984 5.87847 9.29184 5.87744ZM9.29184 11.0067C8.95368 11.0067 8.62312 10.9065 8.34195 10.7186C8.06078 10.5307 7.84163 10.2637 7.71223 9.95127C7.58282 9.63885 7.54896 9.29507 7.61493 8.96341C7.6809 8.63175 7.84374 8.3271 8.08286 8.08798C8.32197 7.84887 8.62662 7.68603 8.95828 7.62006C9.28995 7.55409 9.63372 7.58795 9.94614 7.71735C10.2586 7.84676 10.5256 8.06591 10.7135 8.34707C10.9013 8.62824 11.0016 8.95881 11.0016 9.29697C11.0011 9.75026 10.8208 10.1848 10.5002 10.5054C10.1797 10.8259 9.74514 11.0062 9.29184 11.0067Z" fill="#62BECB"/>
+                                        <path d="M15.8628 2.72094C14.2381 1.09668 12.0694 0.131811 9.77514 0.0125409C7.48091 -0.106729 5.22382 0.628058 3.43949 2.07509C1.65516 3.52212 0.470078 5.57881 0.112978 7.84821C-0.244123 10.1176 0.252067 12.4389 1.50578 14.3639L7.96586 24.2813C8.10962 24.5019 8.30618 24.6833 8.53773 24.8088C8.76928 24.9343 9.02849 25 9.29186 25C9.55523 25 9.81444 24.9343 10.046 24.8088C10.2775 24.6833 10.4741 24.5019 10.6179 24.2813L17.0781 14.3639C18.2415 12.5782 18.7556 10.4468 18.5343 8.32701C18.313 6.20725 17.3698 4.22798 15.8628 2.72094ZM15.6456 13.4307L9.29189 23.1843L2.93814 13.4307C0.993282 10.4451 1.41041 6.44956 3.92996 3.9299C4.63409 3.22575 5.47002 2.66718 6.39003 2.2861C7.31003 1.90501 8.29608 1.70887 9.29189 1.70887C10.2877 1.70887 11.2737 1.90501 12.1937 2.2861C13.1138 2.66718 13.9497 3.22575 14.6538 3.9299C17.1734 6.44956 17.5904 10.4451 15.6456 13.4307Z" fill="#62BECB"/>
+                                    </svg>
+                                </span>
+                                <span>
+                                    Ikeja, Lagos
+                                </span>
+                            </p>
+                            <p class="listing__description">
+                                We seek an experienced Javascript web application developer
+                                who is proficient with React.js and has excellent communication skills.
+                            </p>
+                            <div class="listing__action">
+                                <button class="btn btn--more">
+                                    See more
+                                </button>
+                            </div>
+                        </li>
                     </ul>
                     <div class="listing__view">
-                        &nbsp;
+                        <div class="listing__info">
+                            <h1 class="listing__heading">
+                                Front end developer
+                            </h1>
+                            <p class="listing__location">
+                                <span class="location-icon">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.29184 5.87744C8.61552 5.87744 7.95439 6.07799 7.39206 6.45374C6.82972 6.82948 6.39143 7.36354 6.13261 7.98837C5.8738 8.61321 5.80608 9.30076 5.93802 9.96408C6.06996 10.6274 6.39564 11.2367 6.87387 11.7149C7.3521 12.1932 7.9614 12.5188 8.62473 12.6508C9.28805 12.7827 9.9756 12.715 10.6004 12.4562C11.2253 12.1974 11.7593 11.7591 12.1351 11.1968C12.5108 10.6344 12.7114 9.97329 12.7114 9.29697C12.7103 8.39037 12.3497 7.5212 11.7087 6.88014C11.0676 6.23908 10.1984 5.87847 9.29184 5.87744ZM9.29184 11.0067C8.95368 11.0067 8.62312 10.9065 8.34195 10.7186C8.06078 10.5307 7.84163 10.2637 7.71223 9.95127C7.58282 9.63885 7.54896 9.29507 7.61493 8.96341C7.6809 8.63175 7.84374 8.3271 8.08286 8.08798C8.32197 7.84887 8.62662 7.68603 8.95828 7.62006C9.28995 7.55409 9.63372 7.58795 9.94614 7.71735C10.2586 7.84676 10.5256 8.06591 10.7135 8.34707C10.9013 8.62824 11.0016 8.95881 11.0016 9.29697C11.0011 9.75026 10.8208 10.1848 10.5002 10.5054C10.1797 10.8259 9.74514 11.0062 9.29184 11.0067Z" fill="#62BECB"/>
+                                        <path d="M15.8628 2.72094C14.2381 1.09668 12.0694 0.131811 9.77514 0.0125409C7.48091 -0.106729 5.22382 0.628058 3.43949 2.07509C1.65516 3.52212 0.470078 5.57881 0.112978 7.84821C-0.244123 10.1176 0.252067 12.4389 1.50578 14.3639L7.96586 24.2813C8.10962 24.5019 8.30618 24.6833 8.53773 24.8088C8.76928 24.9343 9.02849 25 9.29186 25C9.55523 25 9.81444 24.9343 10.046 24.8088C10.2775 24.6833 10.4741 24.5019 10.6179 24.2813L17.0781 14.3639C18.2415 12.5782 18.7556 10.4468 18.5343 8.32701C18.313 6.20725 17.3698 4.22798 15.8628 2.72094ZM15.6456 13.4307L9.29189 23.1843L2.93814 13.4307C0.993282 10.4451 1.41041 6.44956 3.92996 3.9299C4.63409 3.22575 5.47002 2.66718 6.39003 2.2861C7.31003 1.90501 8.29608 1.70887 9.29189 1.70887C10.2877 1.70887 11.2737 1.90501 12.1937 2.2861C13.1138 2.66718 13.9497 3.22575 14.6538 3.9299C17.1734 6.44956 17.5904 10.4451 15.6456 13.4307Z" fill="#62BECB"/>
+                                    </svg>
+                                </span>
+                                <span>
+                                    Ikeja, Lagos
+                                </span>
+                            </p>
+                            <button type="button" class="btn btn--apply">
+                                Apply Via Find Job
+                            </button>
+                        </div>
+                        <div class="listing__full-details">
+                            <p class="listing__paragraph">
+                                In this role, you will be responsible for developing and
+                                implementing user interface components using React.js concepts 
+                                and workflow such as Redux, Flux, and Webpack. You will also be 
+                                responsible for profiling and improving front-end performance 
+                                and documenting our front-end codebase.
+                            </p>
+                            <ul class="listing__qualifications">
+                                <li class="listing__qualification">
+                                    Minimum Qualification: Degree
+                                </li>
+                                <li class="listing__qualification">
+                                    Experience Level: Senior level
+                                </li>
+                                <li class="listing__qualification">
+                                    Experience Length: 5 years
+                                </li>
+                            </ul>
+                            <h3 class="listing__heading-tertiary">
+                                Job Description/Requirements
+                            </h3>
+                            <ul class="listing__requirements">
+                                <li class="listing__requirement">
+                                    5+ years experience of front-end related (HTML5 + JS + CSS3) development work experience, familiar with mobile application development;
+                                </li>
+                                <li class="listing__requirement">
+                                    Proficient in JavaScript / Typescript, mastering technologies such as HTML, CSS, DOM, AJAX, etc., can quickly complete the established interactive design functions; At least 4 years experience is required.
+                                </li>
+                                <li class="listing__requirement">
+                                    Thorough understanding of React.js and its core principles
+                                </li>
+                                <li class="listing__requirement">
+                                    Experience with popular React.js workflows (such as Flux or Redux)
+                                </li>
+                                <li class="listing__requirement">
+                                    Familiarity with RESTful API’s
+                                </li>
+                                <li class="listing__requirement">
+                                    Knowledge of isomorphic react is a plus
+                                </li>
+                                <li class="listing__requirement">
+                                    Familiarity with mordern front-end build pipelines and tools
+                                </li>
+                                <li class="listing__requirement">
+                                    Experience with common front-end development tools such as
+                                    Babel, Webpack, NPM e.t.c
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="pagination">
+                <button class="pagination__btn">
+                    1
+                </button>
+                <button class="pagination__btn">
+                    2
+                </button>
+                <button class="pagination__btn">
+                    3
+                </button>
+                <button class="pagination__btn">
+                    4
+                </button>
+                <button class="pagination__btn">
+                    5
+                </button>
+                <button class="pagination__btn">
+                    <span class="next">
+                        <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.51328 9.50134L6.4889 5.49866L1.50896 1.50134" stroke="#0F4A7B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </button>
             </div>
         </div>
     </section>
